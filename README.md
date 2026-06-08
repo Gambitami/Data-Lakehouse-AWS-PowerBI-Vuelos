@@ -1,5 +1,6 @@
 # ✈️ Data Lakehouse & BI: Monitor de Tráfico Aéreo (Sedes Mundialistas 2026)
 
+**[📊 Haz clic aquí para interactuar con el Dashboard en vivo] ([TU_ENLACE_AQUI](https://app.powerbi.com/view?r=eyJrIjoiZjQ4OTI4MmUtOGEyMS00MDA1LWJlYjUtYzViZDhmNTgxOTBhIiwidCI6Ijc0YTRhM2JiLWQxNmYtNDQ5OC05MmExLTk4OTk1ZTIzODdhYSJ9))**
 ![Dashboard Preview](dashboard_preview.jpg)
 
 ## 📌 Descripción del Proyecto
