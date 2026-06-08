@@ -23,6 +23,9 @@ Demuestra habilidades en **Ingeniería de Datos** y **Business Intelligence**, i
 4. **Catálogo:** Amazon Athena actualiza las particiones (`MSCK REPAIR TABLE`).
 5. **Reporte:** Power BI Service (Nube) consume la tabla procesada y se actualiza de forma programada.
 
+## ⚠️ Limitaciones Conocidas (Data Quality)
+* **Cobertura ADS-B en Guadalajara:** Durante la extracción de datos, es común observar que el registro de vuelos en el espacio aéreo de Guadalajara ocasionalmente arroje `0`. Tras analizar el comportamiento, se concluye que no es un error del script de ingesta, sino un punto ciego temporal en la red de antenas voluntarias terrestres (ADS-B) de la API de OpenSky Network en esa región específica, a diferencia de la cobertura estable en Monterrey y CDMX. Gestionar este tipo de anomalías es parte natural del trabajo con fuentes de datos públicas.
+
 ## 🧠 Siguientes Pasos (Roadmap)
 - [ ] Migrar el script local de ingesta (Python) a **AWS Lambda** y orquestarlo con **Amazon EventBridge** para una arquitectura 100% Serverless.
 - [ ] Implementar validación de calidad de datos usando AWS Glue DataBrew o Great Expectations.
